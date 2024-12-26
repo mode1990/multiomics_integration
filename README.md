@@ -20,6 +20,8 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 from scipy import sparse
 
+## Basic Usage 
+```python
 from pipeline import MultiModalIntegration
 
 # Initialize pipeline
