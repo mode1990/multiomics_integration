@@ -3,12 +3,11 @@
 This repository provides a pipeline for integrating multi-modal single-cell data, specifically RNA-seq and ATAC-seq, leveraging the MultiVI framework from **scvi-tools**. The pipeline streamlines preprocessing, integration, and analysis, enabling insights into cellular heterogeneity across modalities.
 
 ## Features
-- **Data Preprocessing**: Efficient loading and preprocessing of RNA-seq and ATAC-seq data.
+- **Data Preprocessing**: Efficient loading and preprocessing of RNA-seq and ATAC-seq data both in h5ad format.
 - **Multi-Modal Integration**: Seamless integration of RNA and ATAC modalities using MultiVI.
 - **Quality Control**: Built-in tools for filtering and ensuring high-quality data.
 - **Dimensionality Reduction**: Generate latent representations of integrated data.
 - **Visualization**: Intuitive visualizations for exploring the latent space and results.
-- **Comprehensive Analysis**: In-depth exploration of integrated multi-omics datasets.
 
 ## Prerequisites
 Ensure you have the following Python packages installed:
