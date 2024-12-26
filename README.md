@@ -19,3 +19,17 @@ import scvi
 import matplotlib.pyplot as plt
 import seaborn as sns
 from scipy import sparse
+
+from pipeline import MultiModalIntegration
+
+# Initialize pipeline
+pipeline = MultiModalIntegration("/path/to/data/")
+
+# Run analysis steps
+pipeline.load_data()
+pipeline.prepare_rna_data()
+pipeline.prepare_atac_data()
+pipeline.combine_modalities()
+pipeline.train_multivi()
+pipeline.process_latent_space()
+pipeline.visualize_results()
